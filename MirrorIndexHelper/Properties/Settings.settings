@@ -1,0 +1,15 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="MirrorIndexHelper.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="MirrorIndexHelper_DocumentPicker_FullTextTransmiter" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://168.160.16.175/DocumentPickUp/FulltextTransmiter.asmx</Value>
+    </Setting>
+    <Setting Name="MirrorIndexHelper_DocumentFinder_SearchDocument" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://168.160.16.175/DocumentFound/SearchDocument.asmx</Value>
+    </Setting>
+    <Setting Name="MirrorIndexHelper_WebReferencePDF_PDFTransmiter" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://168.160.16.105/isticopenservice/PDFTransmiter.asmx</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

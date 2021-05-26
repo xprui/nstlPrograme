@@ -1,0 +1,13 @@
+D:\WorkSpace\Projects\2013\LuceneHelper\Istic.NSTL\bin\Debug\Istic.NSTL.dll
+D:\WorkSpace\Projects\2013\LuceneHelper\Istic.NSTL\bin\Debug\Istic.NSTL.pdb
+D:\WorkSpace\Projects\2013\LuceneHelper\Istic.NSTL\bin\Debug\Lucene.Net.dll
+D:\WorkSpace\Projects\2013\LuceneHelper\Istic.NSTL\obj\Debug\Istic.NSTL.dll
+D:\WorkSpace\Projects\2013\LuceneHelper\Istic.NSTL\obj\Debug\Istic.NSTL.pdb
+D:\WorkSpace\Projects\2013\LuceneHelper\Istic.NSTL\bin\Debug\Lucene.Net.xml
+D:\WorkSpace\Projects\2013\LuceneHelper\Istic.NSTL\obj\Debug\Istic.NSTL.csprojResolveAssemblyReference.cache
+D:\WorkSpace\Projects\2017\内网镜像数据处理工具\Istic.NSTL\bin\Debug\Istic.NSTL.dll
+D:\WorkSpace\Projects\2017\内网镜像数据处理工具\Istic.NSTL\bin\Debug\Istic.NSTL.pdb
+D:\WorkSpace\Projects\2017\内网镜像数据处理工具\Istic.NSTL\bin\Debug\Lucene.Net.dll
+D:\WorkSpace\Projects\2017\内网镜像数据处理工具\Istic.NSTL\obj\Debug\Istic.NSTL.dll
+D:\WorkSpace\Projects\2017\内网镜像数据处理工具\Istic.NSTL\obj\Debug\Istic.NSTL.pdb
+D:\WorkSpace\Projects\2017\内网镜像数据处理工具\Istic.NSTL\obj\Debug\Istic.NSTL.csprojResolveAssemblyReference.cache

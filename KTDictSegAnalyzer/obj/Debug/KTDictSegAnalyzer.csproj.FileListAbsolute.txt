@@ -1,0 +1,5 @@
+D:\WorkSpace\Projects\2017\内网镜像数据处理工具\Debug\KTDictSegAnalyzer.dll
+D:\WorkSpace\Projects\2017\内网镜像数据处理工具\Debug\KTDictSegAnalyzer.pdb
+D:\WorkSpace\Projects\2017\内网镜像数据处理工具\KTDictSegAnalyzer\obj\Debug\KTDictSegAnalyzer.dll
+D:\WorkSpace\Projects\2017\内网镜像数据处理工具\KTDictSegAnalyzer\obj\Debug\KTDictSegAnalyzer.pdb
+D:\WorkSpace\Projects\2017\内网镜像数据处理工具\KTDictSegAnalyzer\obj\Debug\KTDictSegAnalyzer.csprojResolveAssemblyReference.cache

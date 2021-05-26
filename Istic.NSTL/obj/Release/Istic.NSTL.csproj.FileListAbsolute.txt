@@ -1,0 +1,7 @@
+D:\WorkSpace\Projects\2013\LuceneHelper\Istic.NSTL\bin\Release\Istic.NSTL.dll
+D:\WorkSpace\Projects\2013\LuceneHelper\Istic.NSTL\bin\Release\Istic.NSTL.pdb
+D:\WorkSpace\Projects\2013\LuceneHelper\Istic.NSTL\bin\Release\Lucene.Net.dll
+D:\WorkSpace\Projects\2013\LuceneHelper\Istic.NSTL\bin\Release\Lucene.Net.xml
+D:\WorkSpace\Projects\2013\LuceneHelper\Istic.NSTL\obj\Release\ResolveAssemblyReference.cache
+D:\WorkSpace\Projects\2013\LuceneHelper\Istic.NSTL\obj\Release\Istic.NSTL.dll
+D:\WorkSpace\Projects\2013\LuceneHelper\Istic.NSTL\obj\Release\Istic.NSTL.pdb

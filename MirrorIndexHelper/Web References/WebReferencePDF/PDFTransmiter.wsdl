@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="SeekForPDF">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="uniqueIdCollection" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SeekForPDFResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SeekForPDFResult" type="tns:SeekResult" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="SeekResult">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="Validity" type="s:boolean" />
+          <s:element minOccurs="0" maxOccurs="1" name="Information" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Result" type="tns:ArrayOfSeek" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ArrayOfSeek">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="Seek" nillable="true" type="tns:Seek" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="Seek">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="UniqueId" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="IsFinded" type="s:boolean" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="PickUpFile">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="uniqueID" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="OnlyStream" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="PickUpFileResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="SeekResult" nillable="true" type="tns:SeekResult" />
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="SeekForPDFSoapIn">
+    <wsdl:part name="parameters" element="tns:SeekForPDF" />
+  </wsdl:message>
+  <wsdl:message name="SeekForPDFSoapOut">
+    <wsdl:part name="parameters" element="tns:SeekForPDFResponse" />
+  </wsdl:message>
+  <wsdl:message name="PickUpFileSoapIn">
+    <wsdl:part name="parameters" element="tns:PickUpFile" />
+  </wsdl:message>
+  <wsdl:message name="PickUpFileSoapOut">
+    <wsdl:part name="parameters" element="tns:PickUpFileResponse" />
+  </wsdl:message>
+  <wsdl:message name="SeekForPDFHttpGetIn">
+    <wsdl:part name="uniqueIdCollection" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="SeekForPDFHttpGetOut">
+    <wsdl:part name="Body" element="tns:SeekResult" />
+  </wsdl:message>
+  <wsdl:message name="PickUpFileHttpGetIn">
+    <wsdl:part name="uniqueID" type="s:string" />
+    <wsdl:part name="OnlyStream" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="PickUpFileHttpGetOut" />
+  <wsdl:message name="SeekForPDFHttpPostIn">
+    <wsdl:part name="uniqueIdCollection" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="SeekForPDFHttpPostOut">
+    <wsdl:part name="Body" element="tns:SeekResult" />
+  </wsdl:message>
+  <wsdl:message name="PickUpFileHttpPostIn">
+    <wsdl:part name="uniqueID" type="s:string" />
+    <wsdl:part name="OnlyStream" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="PickUpFileHttpPostOut" />
+  <wsdl:portType name="PDFTransmiterSoap">
+    <wsdl:operation name="SeekForPDF">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">&lt;table&gt;&lt;tr&gt;&lt;td&gt;&lt;a href='./help/SeekForPDF.pdf' target='_blank'&gt;&lt;b&gt;查询是否可以获取全文&lt;/b&gt;&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;参数说明：&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;uniqueID&lt;/td&gt;&lt;td&gt;int&lt;/td&gt;&lt;td&gt;文档标识码，支持同时查询多个，各标识间用半角分号隔开&lt;/td&gt;&lt;/tr&gt;
+            &lt;/table&gt;</wsdl:documentation>
+      <wsdl:input message="tns:SeekForPDFSoapIn" />
+      <wsdl:output message="tns:SeekForPDFSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="PickUpFile">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">&lt;table&gt;&lt;tr&gt;&lt;td&gt;&lt;a href='./help/PickUpFile.pdf' target='_blank'&gt;&lt;b&gt;在线请求原文&lt;/b&gt;&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;参数说明：&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;uniqueID&lt;/td&gt;&lt;td&gt;int&lt;/td&gt;&lt;td&gt;文档标识码&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;OnlyStream&lt;/td&gt;&lt;td&gt;int&lt;/td&gt;&lt;td&gt;true:仅返回二进制流，相当于浏览器的下载功能；false:返回XML数据&lt;/td&gt;&lt;/tr&gt;
+            &lt;/table&gt;</wsdl:documentation>
+      <wsdl:input message="tns:PickUpFileSoapIn" />
+      <wsdl:output message="tns:PickUpFileSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="PDFTransmiterHttpGet">
+    <wsdl:operation name="SeekForPDF">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">&lt;table&gt;&lt;tr&gt;&lt;td&gt;&lt;a href='./help/SeekForPDF.pdf' target='_blank'&gt;&lt;b&gt;查询是否可以获取全文&lt;/b&gt;&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;参数说明：&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;uniqueID&lt;/td&gt;&lt;td&gt;int&lt;/td&gt;&lt;td&gt;文档标识码，支持同时查询多个，各标识间用半角分号隔开&lt;/td&gt;&lt;/tr&gt;
+            &lt;/table&gt;</wsdl:documentation>
+      <wsdl:input message="tns:SeekForPDFHttpGetIn" />
+      <wsdl:output message="tns:SeekForPDFHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="PickUpFile">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">&lt;table&gt;&lt;tr&gt;&lt;td&gt;&lt;a href='./help/PickUpFile.pdf' target='_blank'&gt;&lt;b&gt;在线请求原文&lt;/b&gt;&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;参数说明：&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;uniqueID&lt;/td&gt;&lt;td&gt;int&lt;/td&gt;&lt;td&gt;文档标识码&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;OnlyStream&lt;/td&gt;&lt;td&gt;int&lt;/td&gt;&lt;td&gt;true:仅返回二进制流，相当于浏览器的下载功能；false:返回XML数据&lt;/td&gt;&lt;/tr&gt;
+            &lt;/table&gt;</wsdl:documentation>
+      <wsdl:input message="tns:PickUpFileHttpGetIn" />
+      <wsdl:output message="tns:PickUpFileHttpGetOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="PDFTransmiterHttpPost">
+    <wsdl:operation name="SeekForPDF">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">&lt;table&gt;&lt;tr&gt;&lt;td&gt;&lt;a href='./help/SeekForPDF.pdf' target='_blank'&gt;&lt;b&gt;查询是否可以获取全文&lt;/b&gt;&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;参数说明：&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;uniqueID&lt;/td&gt;&lt;td&gt;int&lt;/td&gt;&lt;td&gt;文档标识码，支持同时查询多个，各标识间用半角分号隔开&lt;/td&gt;&lt;/tr&gt;
+            &lt;/table&gt;</wsdl:documentation>
+      <wsdl:input message="tns:SeekForPDFHttpPostIn" />
+      <wsdl:output message="tns:SeekForPDFHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="PickUpFile">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">&lt;table&gt;&lt;tr&gt;&lt;td&gt;&lt;a href='./help/PickUpFile.pdf' target='_blank'&gt;&lt;b&gt;在线请求原文&lt;/b&gt;&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;参数说明：&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;uniqueID&lt;/td&gt;&lt;td&gt;int&lt;/td&gt;&lt;td&gt;文档标识码&lt;/td&gt;&lt;/tr&gt;
+            &lt;tr&gt;&lt;td&gt;OnlyStream&lt;/td&gt;&lt;td&gt;int&lt;/td&gt;&lt;td&gt;true:仅返回二进制流，相当于浏览器的下载功能；false:返回XML数据&lt;/td&gt;&lt;/tr&gt;
+            &lt;/table&gt;</wsdl:documentation>
+      <wsdl:input message="tns:PickUpFileHttpPostIn" />
+      <wsdl:output message="tns:PickUpFileHttpPostOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="PDFTransmiterSoap" type="tns:PDFTransmiterSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="SeekForPDF">
+      <soap:operation soapAction="http://tempuri.org/SeekForPDF" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PickUpFile">
+      <soap:operation soapAction="http://tempuri.org/PickUpFile" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="PDFTransmiterSoap12" type="tns:PDFTransmiterSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="SeekForPDF">
+      <soap12:operation soapAction="http://tempuri.org/SeekForPDF" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PickUpFile">
+      <soap12:operation soapAction="http://tempuri.org/PickUpFile" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="PDFTransmiterHttpGet" type="tns:PDFTransmiterHttpGet">
+    <http:binding verb="GET" />
+    <wsdl:operation name="SeekForPDF">
+      <http:operation location="/SeekForPDF" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PickUpFile">
+      <http:operation location="/PickUpFile" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output />
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="PDFTransmiterHttpPost" type="tns:PDFTransmiterHttpPost">
+    <http:binding verb="POST" />
+    <wsdl:operation name="SeekForPDF">
+      <http:operation location="/SeekForPDF" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PickUpFile">
+      <http:operation location="/PickUpFile" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output />
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="PDFTransmiter">
+    <wsdl:port name="PDFTransmiterSoap" binding="tns:PDFTransmiterSoap">
+      <soap:address location="http://168.160.16.105/isticopenservice/PDFTransmiter.asmx" />
+    </wsdl:port>
+    <wsdl:port name="PDFTransmiterSoap12" binding="tns:PDFTransmiterSoap12">
+      <soap12:address location="http://168.160.16.105/isticopenservice/PDFTransmiter.asmx" />
+    </wsdl:port>
+    <wsdl:port name="PDFTransmiterHttpGet" binding="tns:PDFTransmiterHttpGet">
+      <http:address location="http://168.160.16.105/isticopenservice/PDFTransmiter.asmx" />
+    </wsdl:port>
+    <wsdl:port name="PDFTransmiterHttpPost" binding="tns:PDFTransmiterHttpPost">
+      <http:address location="http://168.160.16.105/isticopenservice/PDFTransmiter.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

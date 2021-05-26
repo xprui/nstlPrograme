@@ -1,0 +1,162 @@
+D:\WorkSpace\Projects\2017\内网镜像数据处理工具\MirrorIndexHelper\bin\x86\Debug\MirrorIndexHelper.exe.config
+D:\WorkSpace\Projects\2017\内网镜像数据处理工具\MirrorIndexHelper\obj\x86\Debug\Interop.ADOX.dll
+D:\WorkSpace\Projects\2017\内网镜像数据处理工具\MirrorIndexHelper\obj\x86\Debug\MirrorIndexHelper.csproj.ResolveComReference.cache
+D:\WorkSpace\Projects\2017\内网镜像数据处理工具\MirrorIndexHelper\obj\x86\Debug\LuceneHelper.frmMain.resources
+D:\WorkSpace\Projects\2017\内网镜像数据处理工具\MirrorIndexHelper\obj\x86\Debug\MirrorIndexHelper.Properties.Resources.resources
+D:\WorkSpace\Projects\2017\内网镜像数据处理工具\MirrorIndexHelper\obj\x86\Debug\MirrorIndexHelper.csproj.GenerateResource.Cache
+D:\WorkSpace\Projects\2017\内网镜像数据处理工具\MirrorIndexHelper\bin\x86\Debug\MirrorIndexHelper.exe
+D:\WorkSpace\Projects\2017\内网镜像数据处理工具\MirrorIndexHelper\bin\x86\Debug\MirrorIndexHelper.pdb
+D:\WorkSpace\Projects\2017\内网镜像数据处理工具\MirrorIndexHelper\bin\x86\Debug\DictSeg.dll
+D:\WorkSpace\Projects\2017\内网镜像数据处理工具\MirrorIndexHelper\bin\x86\Debug\FTAlgorithm.dll
+D:\WorkSpace\Projects\2017\内网镜像数据处理工具\MirrorIndexHelper\bin\x86\Debug\Highlighter.Net.dll
+D:\WorkSpace\Projects\2017\内网镜像数据处理工具\MirrorIndexHelper\bin\x86\Debug\KTDictSeg.HighLight.dll
+D:\WorkSpace\Projects\2017\内网镜像数据处理工具\MirrorIndexHelper\bin\x86\Debug\KTDictSegAnalyzer.dll
+D:\WorkSpace\Projects\2017\内网镜像数据处理工具\MirrorIndexHelper\bin\x86\Debug\Lucene.Net.dll
+D:\WorkSpace\Projects\2017\内网镜像数据处理工具\MirrorIndexHelper\bin\x86\Debug\MySql.Data.dll
+D:\WorkSpace\Projects\2017\内网镜像数据处理工具\MirrorIndexHelper\bin\x86\Debug\Oracle.DataAccess.dll
+D:\WorkSpace\Projects\2017\内网镜像数据处理工具\MirrorIndexHelper\bin\x86\Debug\System.Data.SQLite.DLL
+D:\WorkSpace\Projects\2017\内网镜像数据处理工具\MirrorIndexHelper\obj\x86\Debug\MirrorIndexHelper.exe
+D:\WorkSpace\Projects\2017\内网镜像数据处理工具\MirrorIndexHelper\obj\x86\Debug\MirrorIndexHelper.pdb
+D:\WorkSpace\Projects\2017\内网镜像数据处理工具\MirrorIndexHelper\obj\x86\Debug\LuceneHelper.UserControls.ucAccessConnector.resources
+D:\WorkSpace\Projects\2017\内网镜像数据处理工具\MirrorIndexHelper\obj\x86\Debug\LuceneHelper.UserControls.ucExcelConnector.resources
+D:\WorkSpace\Projects\2017\内网镜像数据处理工具\MirrorIndexHelper\obj\x86\Debug\LuceneHelper.UserControls.ucMySqlConnector.resources
+D:\WorkSpace\Projects\2017\内网镜像数据处理工具\MirrorIndexHelper\obj\x86\Debug\LuceneHelper.UserControls.ucOracleConnector.resources
+D:\WorkSpace\Projects\2017\内网镜像数据处理工具\MirrorIndexHelper\obj\x86\Debug\LuceneHelper.UserControls.ucSqliteConnector.resources
+D:\WorkSpace\Projects\2017\内网镜像数据处理工具\MirrorIndexHelper\obj\x86\Debug\LuceneHelper.UserControls.ucSqlServerConnector.resources
+D:\WorkSpace\Projects\2017\内网镜像数据处理工具\MirrorIndexHelper\obj\x86\Debug\LuceneHelper.SearcherFrom.resources
+D:\WorkSpace\Projects\2017\内网镜像数据处理工具\MirrorIndexHelper\bin\x86\Debug\itextsharp.dll
+D:\WorkSpace\Projects\2017\内网镜像数据处理工具\MirrorIndexHelper\obj\x86\Debug\Interop.Acrobat.dll
+D:\WorkSpace\Projects\2017\内网镜像数据处理工具\MirrorIndexHelper\obj\x86\Debug\MirrorIndexHelper.csprojResolveAssemblyReference.cache
+D:\WorkSpace\Projects\2017\@镜像数据规范改造\内网镜像数据处理工具\MirrorIndexHelper\bin\x86\Debug\MirrorIndexHelper.exe.config
+D:\WorkSpace\Projects\2017\@镜像数据规范改造\内网镜像数据处理工具\MirrorIndexHelper\obj\x86\Debug\Interop.Acrobat.dll
+D:\WorkSpace\Projects\2017\@镜像数据规范改造\内网镜像数据处理工具\MirrorIndexHelper\obj\x86\Debug\Interop.ADOX.dll
+D:\WorkSpace\Projects\2017\@镜像数据规范改造\内网镜像数据处理工具\MirrorIndexHelper\obj\x86\Debug\MirrorIndexHelper.csproj.ResolveComReference.cache
+D:\WorkSpace\Projects\2017\@镜像数据规范改造\内网镜像数据处理工具\MirrorIndexHelper\obj\x86\Debug\MirrorIndexHelper.exe
+D:\WorkSpace\Projects\2017\@镜像数据规范改造\内网镜像数据处理工具\MirrorIndexHelper\obj\x86\Debug\MirrorIndexHelper.pdb
+D:\WorkSpace\Projects\2017\@镜像数据规范改造\内网镜像数据处理工具\MirrorIndexHelper\bin\x86\Debug\MirrorIndexHelper.exe
+D:\WorkSpace\Projects\2017\@镜像数据规范改造\内网镜像数据处理工具\MirrorIndexHelper\bin\x86\Debug\MirrorIndexHelper.pdb
+D:\WorkSpace\Projects\2017\@镜像数据规范改造\内网镜像数据处理工具\MirrorIndexHelper\obj\x86\Debug\LuceneHelper.frmMain.resources
+D:\WorkSpace\Projects\2017\@镜像数据规范改造\内网镜像数据处理工具\MirrorIndexHelper\obj\x86\Debug\MirrorIndexHelper.Properties.Resources.resources
+D:\WorkSpace\Projects\2017\@镜像数据规范改造\内网镜像数据处理工具\MirrorIndexHelper\obj\x86\Debug\LuceneHelper.UserControls.ucAccessConnector.resources
+D:\WorkSpace\Projects\2017\@镜像数据规范改造\内网镜像数据处理工具\MirrorIndexHelper\obj\x86\Debug\LuceneHelper.UserControls.ucExcelConnector.resources
+D:\WorkSpace\Projects\2017\@镜像数据规范改造\内网镜像数据处理工具\MirrorIndexHelper\obj\x86\Debug\LuceneHelper.UserControls.ucMySqlConnector.resources
+D:\WorkSpace\Projects\2017\@镜像数据规范改造\内网镜像数据处理工具\MirrorIndexHelper\obj\x86\Debug\LuceneHelper.UserControls.ucOracleConnector.resources
+D:\WorkSpace\Projects\2017\@镜像数据规范改造\内网镜像数据处理工具\MirrorIndexHelper\obj\x86\Debug\LuceneHelper.UserControls.ucSqliteConnector.resources
+D:\WorkSpace\Projects\2017\@镜像数据规范改造\内网镜像数据处理工具\MirrorIndexHelper\obj\x86\Debug\LuceneHelper.UserControls.ucSqlServerConnector.resources
+D:\WorkSpace\Projects\2017\@镜像数据规范改造\内网镜像数据处理工具\MirrorIndexHelper\obj\x86\Debug\LuceneHelper.SearcherFrom.resources
+D:\WorkSpace\Projects\2017\@镜像数据规范改造\内网镜像数据处理工具\MirrorIndexHelper\obj\x86\Debug\MirrorIndexHelper.csproj.GenerateResource.Cache
+D:\WorkSpace\Projects\2017\@镜像数据规范改造\内网镜像数据处理工具\MirrorIndexHelper\bin\x86\Debug\System.Data.SQLite.dll
+D:\WorkSpace\Projects\2017\@镜像数据规范改造\内网镜像数据处理工具\MirrorIndexHelper\bin\x86\Debug\System.Data.SQLite.pdb
+D:\WorkSpace\Projects\2017\@镜像数据规范改造\内网镜像数据处理工具\MirrorIndexHelper\bin\x86\Debug\System.Data.SQLite.xml
+D:\WorkSpace\Projects\2017\@镜像数据规范改造\内网镜像数据处理工具\MirrorIndexHelper\obj\x86\Debug\MirrorIndexHelper.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\内网镜像数据处理工具\MirrorIndexHelper\bin\x86\Debug\MirrorIndexHelper.exe.config
+C:\Users\Administrator\Desktop\内网镜像数据处理工具\MirrorIndexHelper\obj\x86\Debug\Interop.Acrobat.dll
+C:\Users\Administrator\Desktop\内网镜像数据处理工具\MirrorIndexHelper\obj\x86\Debug\Interop.ADOX.dll
+C:\Users\Administrator\Desktop\内网镜像数据处理工具\MirrorIndexHelper\obj\x86\Debug\MirrorIndexHelper.csproj.ResolveComReference.cache
+C:\Users\Administrator\Desktop\内网镜像数据处理工具\MirrorIndexHelper\obj\x86\Debug\MirrorIndexHelper.exe
+C:\Users\Administrator\Desktop\内网镜像数据处理工具\MirrorIndexHelper\obj\x86\Debug\MirrorIndexHelper.pdb
+C:\Users\Administrator\Desktop\内网镜像数据处理工具\MirrorIndexHelper\bin\x86\Debug\MirrorIndexHelper.exe
+C:\Users\Administrator\Desktop\内网镜像数据处理工具\MirrorIndexHelper\bin\x86\Debug\MirrorIndexHelper.pdb
+C:\Users\Administrator\Desktop\内网镜像数据处理工具\MirrorIndexHelper\obj\x86\Debug\LuceneHelper.frmMain.resources
+C:\Users\Administrator\Desktop\内网镜像数据处理工具\MirrorIndexHelper\obj\x86\Debug\MirrorIndexHelper.Properties.Resources.resources
+C:\Users\Administrator\Desktop\内网镜像数据处理工具\MirrorIndexHelper\obj\x86\Debug\LuceneHelper.UserControls.ucAccessConnector.resources
+C:\Users\Administrator\Desktop\内网镜像数据处理工具\MirrorIndexHelper\obj\x86\Debug\LuceneHelper.UserControls.ucExcelConnector.resources
+C:\Users\Administrator\Desktop\内网镜像数据处理工具\MirrorIndexHelper\obj\x86\Debug\LuceneHelper.UserControls.ucMySqlConnector.resources
+C:\Users\Administrator\Desktop\内网镜像数据处理工具\MirrorIndexHelper\obj\x86\Debug\LuceneHelper.UserControls.ucOracleConnector.resources
+C:\Users\Administrator\Desktop\内网镜像数据处理工具\MirrorIndexHelper\obj\x86\Debug\LuceneHelper.UserControls.ucSqliteConnector.resources
+C:\Users\Administrator\Desktop\内网镜像数据处理工具\MirrorIndexHelper\obj\x86\Debug\LuceneHelper.UserControls.ucSqlServerConnector.resources
+C:\Users\Administrator\Desktop\内网镜像数据处理工具\MirrorIndexHelper\obj\x86\Debug\LuceneHelper.SearcherFrom.resources
+C:\Users\Administrator\Desktop\内网镜像数据处理工具\MirrorIndexHelper\obj\x86\Debug\MirrorIndexHelper.csproj.GenerateResource.Cache
+D:\Luyg\专利镜像临时存放\1.NSTL专题镜像数据更新入库程序\LuygUse\内网镜像数据处理工具\MirrorIndexHelper\bin\x86\Debug\MirrorIndexHelper.exe.config
+D:\Luyg\专利镜像临时存放\1.NSTL专题镜像数据更新入库程序\LuygUse\内网镜像数据处理工具\MirrorIndexHelper\obj\x86\Debug\Interop.ADOX.dll
+D:\Luyg\专利镜像临时存放\1.NSTL专题镜像数据更新入库程序\LuygUse\内网镜像数据处理工具\MirrorIndexHelper\obj\x86\Debug\MirrorIndexHelper.csproj.ResolveComReference.cache
+D:\Luyg\专利镜像临时存放\1.NSTL专题镜像数据更新入库程序\LuygUse\内网镜像数据处理工具\MirrorIndexHelper\obj\x86\Debug\MirrorIndexHelper.exe
+D:\Luyg\专利镜像临时存放\1.NSTL专题镜像数据更新入库程序\LuygUse\内网镜像数据处理工具\MirrorIndexHelper\obj\x86\Debug\MirrorIndexHelper.pdb
+D:\Luyg\专利镜像临时存放\1.NSTL专题镜像数据更新入库程序\LuygUse\内网镜像数据处理工具\MirrorIndexHelper\bin\x86\Debug\MirrorIndexHelper.exe
+D:\Luyg\专利镜像临时存放\1.NSTL专题镜像数据更新入库程序\LuygUse\内网镜像数据处理工具\MirrorIndexHelper\bin\x86\Debug\MirrorIndexHelper.pdb
+D:\Luyg\专利镜像临时存放\1.NSTL专题镜像数据更新入库程序\LuygUse\内网镜像数据处理工具\MirrorIndexHelper\obj\x86\Debug\MirrorIndexHelper.csprojResolveAssemblyReference.cache
+D:\Luyg\专利镜像临时存放\1.NSTL专题镜像数据更新入库程序\LuygUse\内网镜像数据处理工具\MirrorIndexHelper\obj\x86\Debug\LuceneHelper.frmMain.resources
+D:\Luyg\专利镜像临时存放\1.NSTL专题镜像数据更新入库程序\LuygUse\内网镜像数据处理工具\MirrorIndexHelper\obj\x86\Debug\MirrorIndexHelper.Properties.Resources.resources
+D:\Luyg\专利镜像临时存放\1.NSTL专题镜像数据更新入库程序\LuygUse\内网镜像数据处理工具\MirrorIndexHelper\obj\x86\Debug\LuceneHelper.UserControls.ucAccessConnector.resources
+D:\Luyg\专利镜像临时存放\1.NSTL专题镜像数据更新入库程序\LuygUse\内网镜像数据处理工具\MirrorIndexHelper\obj\x86\Debug\LuceneHelper.UserControls.ucExcelConnector.resources
+D:\Luyg\专利镜像临时存放\1.NSTL专题镜像数据更新入库程序\LuygUse\内网镜像数据处理工具\MirrorIndexHelper\obj\x86\Debug\LuceneHelper.UserControls.ucMySqlConnector.resources
+D:\Luyg\专利镜像临时存放\1.NSTL专题镜像数据更新入库程序\LuygUse\内网镜像数据处理工具\MirrorIndexHelper\obj\x86\Debug\LuceneHelper.UserControls.ucOracleConnector.resources
+D:\Luyg\专利镜像临时存放\1.NSTL专题镜像数据更新入库程序\LuygUse\内网镜像数据处理工具\MirrorIndexHelper\obj\x86\Debug\LuceneHelper.UserControls.ucSqliteConnector.resources
+D:\Luyg\专利镜像临时存放\1.NSTL专题镜像数据更新入库程序\LuygUse\内网镜像数据处理工具\MirrorIndexHelper\obj\x86\Debug\LuceneHelper.UserControls.ucSqlServerConnector.resources
+D:\Luyg\专利镜像临时存放\1.NSTL专题镜像数据更新入库程序\LuygUse\内网镜像数据处理工具\MirrorIndexHelper\obj\x86\Debug\LuceneHelper.SearcherFrom.resources
+D:\Luyg\专利镜像临时存放\1.NSTL专题镜像数据更新入库程序\LuygUse\内网镜像数据处理工具\MirrorIndexHelper\obj\x86\Debug\MirrorIndexHelper.csproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\内网镜像数据处理工具\MirrorIndexHelper\obj\x86\Debug\MirrorIndexHelper.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\内网镜像数据处理工具\MirrorIndexHelper\obj\x86\Debug\MirrorIndexHelper.csproj.CopyComplete
+D:\Luyg\专利镜像临时存放\2.NSTL航天五院外按条件抽取数据程序\内网镜像数据处理工具\MirrorIndexHelper\bin\x86\Debug\MirrorIndexHelper.exe.config
+D:\Luyg\专利镜像临时存放\2.NSTL航天五院外按条件抽取数据程序\内网镜像数据处理工具\MirrorIndexHelper\obj\x86\Debug\Interop.ADOX.dll
+D:\Luyg\专利镜像临时存放\2.NSTL航天五院外按条件抽取数据程序\内网镜像数据处理工具\MirrorIndexHelper\obj\x86\Debug\MirrorIndexHelper.csproj.ResolveComReference.cache
+D:\Luyg\专利镜像临时存放\2.NSTL航天五院外按条件抽取数据程序\内网镜像数据处理工具\MirrorIndexHelper\obj\x86\Debug\MirrorIndexHelper.exe
+D:\Luyg\专利镜像临时存放\2.NSTL航天五院外按条件抽取数据程序\内网镜像数据处理工具\MirrorIndexHelper\obj\x86\Debug\MirrorIndexHelper.pdb
+D:\Luyg\专利镜像临时存放\2.NSTL航天五院外按条件抽取数据程序\内网镜像数据处理工具\MirrorIndexHelper\bin\x86\Debug\MirrorIndexHelper.exe
+D:\Luyg\专利镜像临时存放\2.NSTL航天五院外按条件抽取数据程序\内网镜像数据处理工具\MirrorIndexHelper\bin\x86\Debug\MirrorIndexHelper.pdb
+D:\Luyg\专利镜像临时存放\2.NSTL航天五院外按条件抽取数据程序\内网镜像数据处理工具\MirrorIndexHelper\obj\x86\Debug\LuceneHelper.frmMain.resources
+D:\Luyg\专利镜像临时存放\2.NSTL航天五院外按条件抽取数据程序\内网镜像数据处理工具\MirrorIndexHelper\obj\x86\Debug\MirrorIndexHelper.Properties.Resources.resources
+D:\Luyg\专利镜像临时存放\2.NSTL航天五院外按条件抽取数据程序\内网镜像数据处理工具\MirrorIndexHelper\obj\x86\Debug\LuceneHelper.UserControls.ucAccessConnector.resources
+D:\Luyg\专利镜像临时存放\2.NSTL航天五院外按条件抽取数据程序\内网镜像数据处理工具\MirrorIndexHelper\obj\x86\Debug\LuceneHelper.UserControls.ucExcelConnector.resources
+D:\Luyg\专利镜像临时存放\2.NSTL航天五院外按条件抽取数据程序\内网镜像数据处理工具\MirrorIndexHelper\obj\x86\Debug\LuceneHelper.UserControls.ucMySqlConnector.resources
+D:\Luyg\专利镜像临时存放\2.NSTL航天五院外按条件抽取数据程序\内网镜像数据处理工具\MirrorIndexHelper\obj\x86\Debug\LuceneHelper.UserControls.ucOracleConnector.resources
+D:\Luyg\专利镜像临时存放\2.NSTL航天五院外按条件抽取数据程序\内网镜像数据处理工具\MirrorIndexHelper\obj\x86\Debug\LuceneHelper.UserControls.ucSqliteConnector.resources
+D:\Luyg\专利镜像临时存放\2.NSTL航天五院外按条件抽取数据程序\内网镜像数据处理工具\MirrorIndexHelper\obj\x86\Debug\LuceneHelper.UserControls.ucSqlServerConnector.resources
+D:\Luyg\专利镜像临时存放\2.NSTL航天五院外按条件抽取数据程序\内网镜像数据处理工具\MirrorIndexHelper\obj\x86\Debug\LuceneHelper.SearcherFrom.resources
+D:\Luyg\专利镜像临时存放\2.NSTL航天五院外按条件抽取数据程序\内网镜像数据处理工具\MirrorIndexHelper\obj\x86\Debug\MirrorIndexHelper.csproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\内网镜像数据处理工具\MirrorIndexHelper\obj\x86\Debug\MirrorIndexHelper.csprojAssemblyReference.cache
+C:\Program Files (x86)\LygNet\内网镜像数据处理工具\MirrorIndexHelper\bin\x86\Debug\MirrorIndexHelper.exe.config
+C:\Program Files (x86)\LygNet\内网镜像数据处理工具\MirrorIndexHelper\obj\x86\Debug\Interop.ADOX.dll
+C:\Program Files (x86)\LygNet\内网镜像数据处理工具\MirrorIndexHelper\obj\x86\Debug\MirrorIndexHelper.csproj.ResolveComReference.cache
+C:\Program Files (x86)\LygNet\内网镜像数据处理工具\MirrorIndexHelper\obj\x86\Debug\MirrorIndexHelper.exe
+C:\Program Files (x86)\LygNet\内网镜像数据处理工具\MirrorIndexHelper\obj\x86\Debug\MirrorIndexHelper.pdb
+C:\Program Files (x86)\LygNet\内网镜像数据处理工具\MirrorIndexHelper\bin\x86\Debug\MirrorIndexHelper.exe
+C:\Program Files (x86)\LygNet\内网镜像数据处理工具\MirrorIndexHelper\bin\x86\Debug\MirrorIndexHelper.pdb
+C:\Program Files (x86)\LygNet\内网镜像数据处理工具\MirrorIndexHelper\obj\x86\Debug\LuceneHelper.frmMain.resources
+C:\Program Files (x86)\LygNet\内网镜像数据处理工具\MirrorIndexHelper\obj\x86\Debug\MirrorIndexHelper.Properties.Resources.resources
+C:\Program Files (x86)\LygNet\内网镜像数据处理工具\MirrorIndexHelper\obj\x86\Debug\LuceneHelper.UserControls.ucAccessConnector.resources
+C:\Program Files (x86)\LygNet\内网镜像数据处理工具\MirrorIndexHelper\obj\x86\Debug\LuceneHelper.UserControls.ucExcelConnector.resources
+C:\Program Files (x86)\LygNet\内网镜像数据处理工具\MirrorIndexHelper\obj\x86\Debug\LuceneHelper.UserControls.ucMySqlConnector.resources
+C:\Program Files (x86)\LygNet\内网镜像数据处理工具\MirrorIndexHelper\obj\x86\Debug\LuceneHelper.UserControls.ucOracleConnector.resources
+C:\Program Files (x86)\LygNet\内网镜像数据处理工具\MirrorIndexHelper\obj\x86\Debug\LuceneHelper.UserControls.ucSqliteConnector.resources
+C:\Program Files (x86)\LygNet\内网镜像数据处理工具\MirrorIndexHelper\obj\x86\Debug\LuceneHelper.UserControls.ucSqlServerConnector.resources
+C:\Program Files (x86)\LygNet\内网镜像数据处理工具\MirrorIndexHelper\obj\x86\Debug\LuceneHelper.SearcherFrom.resources
+C:\Program Files (x86)\LygNet\内网镜像数据处理工具\MirrorIndexHelper\obj\x86\Debug\MirrorIndexHelper.csproj.GenerateResource.Cache
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\内网镜像数据处理工具20190521\MirrorIndexHelper\bin\x86\Debug\MirrorIndexHelper.exe.config
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\内网镜像数据处理工具20190521\MirrorIndexHelper\obj\x86\Debug\Interop.ADOX.dll
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\内网镜像数据处理工具20190521\MirrorIndexHelper\obj\x86\Debug\MirrorIndexHelper.csproj.ResolveComReference.cache
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\内网镜像数据处理工具20190521\MirrorIndexHelper\obj\x86\Debug\MirrorIndexHelper.exe
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\内网镜像数据处理工具20190521\MirrorIndexHelper\obj\x86\Debug\MirrorIndexHelper.pdb
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\内网镜像数据处理工具20190521\MirrorIndexHelper\bin\x86\Debug\MirrorIndexHelper.exe
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\内网镜像数据处理工具20190521\MirrorIndexHelper\bin\x86\Debug\MirrorIndexHelper.pdb
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\内网镜像数据处理工具20190521\MirrorIndexHelper\obj\x86\Debug\MirrorIndexHelper.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\内网镜像数据处理工具20190521\MirrorIndexHelper\obj\x86\Debug\LuceneHelper.frmMain.resources
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\内网镜像数据处理工具20190521\MirrorIndexHelper\obj\x86\Debug\MirrorIndexHelper.Properties.Resources.resources
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\内网镜像数据处理工具20190521\MirrorIndexHelper\obj\x86\Debug\LuceneHelper.UserControls.ucAccessConnector.resources
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\内网镜像数据处理工具20190521\MirrorIndexHelper\obj\x86\Debug\LuceneHelper.UserControls.ucExcelConnector.resources
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\内网镜像数据处理工具20190521\MirrorIndexHelper\obj\x86\Debug\LuceneHelper.UserControls.ucMySqlConnector.resources
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\内网镜像数据处理工具20190521\MirrorIndexHelper\obj\x86\Debug\LuceneHelper.UserControls.ucOracleConnector.resources
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\内网镜像数据处理工具20190521\MirrorIndexHelper\obj\x86\Debug\LuceneHelper.UserControls.ucSqliteConnector.resources
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\内网镜像数据处理工具20190521\MirrorIndexHelper\obj\x86\Debug\LuceneHelper.UserControls.ucSqlServerConnector.resources
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\内网镜像数据处理工具20190521\MirrorIndexHelper\obj\x86\Debug\LuceneHelper.SearcherFrom.resources
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\内网镜像数据处理工具20190521\MirrorIndexHelper\obj\x86\Debug\MirrorIndexHelper.csproj.GenerateResource.Cache
+C:\Users\Administrator\Documents\Projects\内网镜像数据处理工具20190521\MirrorIndexHelper\bin\x86\Debug\MirrorIndexHelper.exe.config
+C:\Users\Administrator\Documents\Projects\内网镜像数据处理工具20190521\MirrorIndexHelper\bin\x86\Debug\MirrorIndexHelper.exe
+C:\Users\Administrator\Documents\Projects\内网镜像数据处理工具20190521\MirrorIndexHelper\bin\x86\Debug\MirrorIndexHelper.pdb
+C:\Users\Administrator\Documents\Projects\内网镜像数据处理工具20190521\MirrorIndexHelper\obj\x86\Debug\Interop.ADOX.dll
+C:\Users\Administrator\Documents\Projects\内网镜像数据处理工具20190521\MirrorIndexHelper\obj\x86\Debug\MirrorIndexHelper.csproj.ResolveComReference.cache
+C:\Users\Administrator\Documents\Projects\内网镜像数据处理工具20190521\MirrorIndexHelper\obj\x86\Debug\LuceneHelper.frmMain.resources
+C:\Users\Administrator\Documents\Projects\内网镜像数据处理工具20190521\MirrorIndexHelper\obj\x86\Debug\MirrorIndexHelper.Properties.Resources.resources
+C:\Users\Administrator\Documents\Projects\内网镜像数据处理工具20190521\MirrorIndexHelper\obj\x86\Debug\LuceneHelper.UserControls.ucAccessConnector.resources
+C:\Users\Administrator\Documents\Projects\内网镜像数据处理工具20190521\MirrorIndexHelper\obj\x86\Debug\LuceneHelper.UserControls.ucExcelConnector.resources
+C:\Users\Administrator\Documents\Projects\内网镜像数据处理工具20190521\MirrorIndexHelper\obj\x86\Debug\LuceneHelper.UserControls.ucMySqlConnector.resources
+C:\Users\Administrator\Documents\Projects\内网镜像数据处理工具20190521\MirrorIndexHelper\obj\x86\Debug\LuceneHelper.UserControls.ucOracleConnector.resources
+C:\Users\Administrator\Documents\Projects\内网镜像数据处理工具20190521\MirrorIndexHelper\obj\x86\Debug\LuceneHelper.UserControls.ucSqliteConnector.resources
+C:\Users\Administrator\Documents\Projects\内网镜像数据处理工具20190521\MirrorIndexHelper\obj\x86\Debug\LuceneHelper.UserControls.ucSqlServerConnector.resources
+C:\Users\Administrator\Documents\Projects\内网镜像数据处理工具20190521\MirrorIndexHelper\obj\x86\Debug\LuceneHelper.SearcherFrom.resources
+C:\Users\Administrator\Documents\Projects\内网镜像数据处理工具20190521\MirrorIndexHelper\obj\x86\Debug\MirrorIndexHelper.csproj.GenerateResource.cache
+C:\Users\Administrator\Documents\Projects\内网镜像数据处理工具20190521\MirrorIndexHelper\obj\x86\Debug\MirrorIndexHelper.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Documents\Projects\内网镜像数据处理工具20190521\MirrorIndexHelper\obj\x86\Debug\MirrorIndexHelper.csproj.CopyComplete
+C:\Users\Administrator\Documents\Projects\内网镜像数据处理工具20190521\MirrorIndexHelper\obj\x86\Debug\MirrorIndexHelper.exe
+C:\Users\Administrator\Documents\Projects\内网镜像数据处理工具20190521\MirrorIndexHelper\obj\x86\Debug\MirrorIndexHelper.pdb
+C:\Users\Administrator\Documents\Projects\内网镜像数据处理工具20190521\MirrorIndexHelper\obj\x86\Debug\MirrorIndexHelper.csprojAssemblyReference.cache

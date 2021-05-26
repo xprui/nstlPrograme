@@ -1,0 +1,5 @@
+D:\WorkSpace\Projects\Lucene相关\ktdictsegv1.4.02[in 4.0]\Release\KTDictSegAnalyzer.dll
+D:\WorkSpace\Projects\Lucene相关\ktdictsegv1.4.02[in 4.0]\Release\KTDictSegAnalyzer.pdb
+D:\WorkSpace\Projects\Lucene相关\ktdictsegv1.4.02[in 4.0]\KTDictSegAnalyzer\obj\Release\ResolveAssemblyReference.cache
+D:\WorkSpace\Projects\Lucene相关\ktdictsegv1.4.02[in 4.0]\KTDictSegAnalyzer\obj\Release\KTDictSegAnalyzer.dll
+D:\WorkSpace\Projects\Lucene相关\ktdictsegv1.4.02[in 4.0]\KTDictSegAnalyzer\obj\Release\KTDictSegAnalyzer.pdb

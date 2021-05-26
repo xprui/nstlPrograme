@@ -1,0 +1,7 @@
+D:\WorkSpace\Projects\2017\内网镜像数据处理工具\MirrorIndexHelper\obj\Debug\MirrorIndexHelper.csprojResolveAssemblyReference.cache
+D:\WorkSpace\Projects\2017\内网镜像数据处理工具\MirrorIndexHelper\obj\Debug\Interop.ADOX.dll
+D:\WorkSpace\Projects\2017\内网镜像数据处理工具\MirrorIndexHelper\obj\Debug\MirrorIndexHelper.csproj.ResolveComReference.cache
+D:\WorkSpace\Projects\2017\内网镜像数据处理工具\MirrorIndexHelper\obj\Debug\LuceneHelper.frmMain.resources
+D:\WorkSpace\Projects\2017\内网镜像数据处理工具\MirrorIndexHelper\obj\Debug\MirrorIndexHelper.Properties.Resources.resources
+D:\WorkSpace\Projects\2017\内网镜像数据处理工具\MirrorIndexHelper\obj\Debug\LuceneHelper.SearcherFrom.resources
+D:\WorkSpace\Projects\2017\内网镜像数据处理工具\MirrorIndexHelper\obj\Debug\MirrorIndexHelper.csproj.GenerateResource.Cache

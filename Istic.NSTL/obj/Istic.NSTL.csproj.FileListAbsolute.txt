@@ -1,0 +1,7 @@
+D:\WorkSpace\Projects\语义检索\Istic.NSTL\obj\Debug\ResolveAssemblyReference.cache
+D:\WorkSpace\Projects\语义检索\Istic.NSTL\bin\Debug\Istic.NSTL.dll
+D:\WorkSpace\Projects\语义检索\Istic.NSTL\bin\Debug\Istic.NSTL.pdb
+D:\WorkSpace\Projects\语义检索\Istic.NSTL\bin\Debug\Lucene.Net.dll
+D:\WorkSpace\Projects\语义检索\Istic.NSTL\bin\Debug\Lucene.Net.pdb
+D:\WorkSpace\Projects\语义检索\Istic.NSTL\obj\Debug\Istic.NSTL.dll
+D:\WorkSpace\Projects\语义检索\Istic.NSTL\obj\Debug\Istic.NSTL.pdb

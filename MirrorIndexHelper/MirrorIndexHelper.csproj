@@ -1,0 +1,394 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{A909F8DB-10D3-43CD-8D4A-2F9B9F25081D}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MirrorIndexHelper</RootNamespace>
+    <AssemblyName>MirrorIndexHelper</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>System_preferences_tool_tools_128px_581754_easyicon.net.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DictSeg, Version=1.4.2.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\@镜像数据规范改造\01From鲁永刚【勿改】\3.NSTL专题镜像索引制作工具\镜像索引制作工具[三期XML]\DictSeg.dll</HintPath>
+    </Reference>
+    <Reference Include="FTAlgorithm, Version=1.4.2.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\@镜像数据规范改造\01From鲁永刚【勿改】\3.NSTL专题镜像索引制作工具\镜像索引制作工具[三期XML]\FTAlgorithm.dll</HintPath>
+    </Reference>
+    <Reference Include="Highlighter.Net, Version=2.0.0.1, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\@镜像数据规范改造\01From鲁永刚【勿改】\3.NSTL专题镜像索引制作工具\镜像索引制作工具[三期XML]\Highlighter.Net.dll</HintPath>
+    </Reference>
+    <Reference Include="itextsharp">
+      <HintPath>..\..\..\PDF控件\Itextsharp\5.1.2\itextsharp.dll</HintPath>
+    </Reference>
+    <Reference Include="KTDictSeg.HighLight, Version=1.4.2.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\@镜像数据规范改造\01From鲁永刚【勿改】\3.NSTL专题镜像索引制作工具\镜像索引制作工具[三期XML]\KTDictSeg.HighLight.dll</HintPath>
+    </Reference>
+    <Reference Include="KTDictSegAnalyzer, Version=1.4.2.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\@镜像数据规范改造\01From鲁永刚【勿改】\3.NSTL专题镜像索引制作工具\镜像索引制作工具[三期XML]\KTDictSegAnalyzer.dll</HintPath>
+    </Reference>
+    <Reference Include="Lucene.Net, Version=2.3.1.3, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\@镜像数据规范改造\01From鲁永刚【勿改】\3.NSTL专题镜像索引制作工具\镜像索引制作工具[三期XML]\Lucene.Net.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="MySql.Data">
+      <HintPath>..\..\..\2013\LuceneHelper\LuceneHelper\bin\Debug\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="Oracle.DataAccess">
+      <HintPath>..\..\..\2013\LuceneHelper\LuceneHelper\bin\Debug\Oracle.DataAccess.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.SQLite, Version=1.0.60.0, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\2016\@镜像\五院PDF打包—上门编译\istic\sqlite-netFx35-static-binary-bundle-Win32-2008-1.0.103.0\System.Data.SQLite.dll</HintPath>
+    </Reference>
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AES.cs" />
+    <Compile Include="AnalyzerChEn.cs" />
+    <Compile Include="Common.cs" />
+    <Compile Include="DataHelper\ExcelTool.cs" />
+    <Compile Include="DataHelper\IDataTool.cs" />
+    <Compile Include="DataHelper\MdbTool.cs" />
+    <Compile Include="DataHelper\MySqlTool.cs" />
+    <Compile Include="DataHelper\OracleTool.cs" />
+    <Compile Include="DataHelper\SqliteTool.cs" />
+    <Compile Include="DataHelper\SqlTool.cs" />
+    <Compile Include="DataUtils.cs" />
+    <Compile Include="EncryptHelper.cs" />
+    <Compile Include="ExportLocalPeriodicalData.cs" />
+    <Compile Include="frmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMain.Designer.cs">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MatchPeriodical.cs" />
+    <Compile Include="PdfDownloader.cs" />
+    <Compile Include="PDFWaterMark\ImageHelper.cs" />
+    <Compile Include="PDFWaterMark\PDFWatermark.cs" />
+    <Compile Include="PeriodicalEng.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UserControls\DBConnector\ucAccessConnector.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\DBConnector\ucAccessConnector.designer.cs">
+      <DependentUpon>ucAccessConnector.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\DBConnector\ucDataConnector.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\DBConnector\ucDataConnector.designer.cs">
+      <DependentUpon>ucDataConnector.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\DBConnector\ucExcelConnector.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\DBConnector\ucExcelConnector.designer.cs">
+      <DependentUpon>ucExcelConnector.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\DBConnector\ucMySqlConnector.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\DBConnector\ucMySqlConnector.designer.cs">
+      <DependentUpon>ucMySqlConnector.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\DBConnector\ucOracleConnector.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\DBConnector\ucOracleConnector.designer.cs">
+      <DependentUpon>ucOracleConnector.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\DBConnector\ucSqliteConnector.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\DBConnector\ucSqliteConnector.designer.cs">
+      <DependentUpon>ucSqliteConnector.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\DBConnector\ucSqlServerConnector.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\DBConnector\ucSqlServerConnector.designer.cs">
+      <DependentUpon>ucSqlServerConnector.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\SearcherFrom.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Util\CurrentInfo.cs" />
+    <Compile Include="Util\Exportconfigmanager.cs" />
+    <Compile Include="Util\ExportTolucene.cs" />
+    <Compile Include="Util\Fieldattribute.cs" />
+    <Compile Include="Util\MessageModel.cs" />
+    <Compile Include="Util\TermInfoQueue.cs" />
+    <Compile Include="Util\TermModle.cs" />
+    <Compile Include="Web References\DocumentFinder\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <Compile Include="Web References\DocumentPicker\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <Compile Include="Web References\WebReferencePDF\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <Compile Include="Xml2DB\LiteratureType.cs" />
+    <Compile Include="Xml2DB\XMLCollection.cs" />
+    <Compile Include="Xml2DB\XMLDissertationEng.cs" />
+    <Compile Include="Xml2DB\XMLDissertationZho.cs" />
+    <Compile Include="Xml2DB\XMLDocument.cs" />
+    <Compile Include="Xml2DB\XMLConferenceEng.cs" />
+    <Compile Include="Xml2DB\XMLConferenceZho.cs" />
+    <Compile Include="Xml2DB\XmlIntoSQLHelper.cs" />
+    <Compile Include="Xml2DB\XMLMeteringRegulations.cs" />
+    <Compile Include="Xml2DB\XMLPatentBritain.cs" />
+    <Compile Include="Xml2DB\XMLPatentCanada.cs" />
+    <Compile Include="Xml2DB\XMLPatentEurope.cs" />
+    <Compile Include="Xml2DB\XMLPatentFrance.cs" />
+    <Compile Include="Xml2DB\XMLPatentGermany.cs" />
+    <Compile Include="Xml2DB\XMLPatentIndia.cs" />
+    <Compile Include="Xml2DB\XMLPatentIsrael.cs" />
+    <Compile Include="Xml2DB\XMLPatentJapan.cs" />
+    <Compile Include="Xml2DB\XMLPatentKorea.cs" />
+    <Compile Include="Xml2DB\XMLPatentRussia.cs" />
+    <Compile Include="Xml2DB\XMLPatentSoviet.cs" />
+    <Compile Include="Xml2DB\XMLPatentSwitzerland.cs" />
+    <Compile Include="Xml2DB\XMLPatentTaiwan.cs" />
+    <Compile Include="Xml2DB\XMLPatentUSA.cs" />
+    <Compile Include="Xml2DB\XMLPatentWIPO.cs" />
+    <Compile Include="Xml2DB\XMLPatentZho.cs" />
+    <Compile Include="Xml2DB\XMLPeriodicalEng.cs" />
+    <Compile Include="Xml2DB\XMLPeriodicalJapan.cs" />
+    <Compile Include="Xml2DB\XMLPeriodicalRussia.cs" />
+    <Compile Include="Xml2DB\XMLPeriodicalZho.cs" />
+    <Compile Include="Xml2DB\XMLReportEng.cs" />
+    <Compile Include="Xml2DB\XMLStandardEng.cs" />
+    <Compile Include="Xml2DB\XMLStandardZho.cs" />
+    <Compile Include="Xml2DB\XMLTechSeries.cs" />
+    <EmbeddedResource Include="frmMain.resx">
+      <DependentUpon>frmMain.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="UserControls\DBConnector\ucAccessConnector.resx">
+      <DependentUpon>ucAccessConnector.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\DBConnector\ucExcelConnector.resx">
+      <DependentUpon>ucExcelConnector.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\DBConnector\ucMySqlConnector.resx">
+      <DependentUpon>ucMySqlConnector.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\DBConnector\ucOracleConnector.resx">
+      <DependentUpon>ucOracleConnector.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\DBConnector\ucSqliteConnector.resx">
+      <DependentUpon>ucSqliteConnector.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\DBConnector\ucSqlServerConnector.resx">
+      <DependentUpon>ucSqlServerConnector.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\SearcherFrom.resx">
+      <DependentUpon>SearcherFrom.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="Web References\DocumentFinder\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\DocumentFinder\SearchDocument.wsdl" />
+    <None Include="Web References\DocumentPicker\FulltextTransmiter.wsdl" />
+    <None Include="Web References\DocumentPicker\PickUpResult.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\DocumentPicker\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\WebReferencePDF\PDFTransmiter.wsdl" />
+    <None Include="Web References\WebReferencePDF\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\WebReferencePDF\SeekResult.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="Acrobat">
+      <Guid>{E64169B3-3592-47D2-816E-602C5C13F328}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>1</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="ADOX">
+      <Guid>{00000600-0000-0010-8000-00AA006D2EA4}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>8</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferences Include="Web References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferenceUrl Include="http://168.160.16.105/isticopenservice/PDFTransmiter.asmx%3fop=PickUpFile">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\WebReferencePDF\</RelPath>
+      <UpdateFromURL>http://168.160.16.105/isticopenservice/PDFTransmiter.asmx%3fop=PickUpFile</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>MirrorIndexHelper_WebReferencePDF_PDFTransmiter</CachedSettingsPropName>
+    </WebReferenceUrl>
+    <WebReferenceUrl Include="http://168.160.16.175/DocumentFound/SearchDocument.asmx">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\DocumentFinder\</RelPath>
+      <UpdateFromURL>http://168.160.16.175/DocumentFound/SearchDocument.asmx</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>MirrorIndexHelper_DocumentFinder_SearchDocument</CachedSettingsPropName>
+    </WebReferenceUrl>
+    <WebReferenceUrl Include="http://168.160.16.175/DocumentPickUp/FulltextTransmiter.asmx">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\DocumentPicker\</RelPath>
+      <UpdateFromURL>http://168.160.16.175/DocumentPickUp/FulltextTransmiter.asmx</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>MirrorIndexHelper_DocumentPicker_FullTextTransmiter</CachedSettingsPropName>
+    </WebReferenceUrl>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Web References\DocumentPicker\FulltextTransmiter.disco" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Web References\DocumentFinder\SearchDocument.disco" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Web References\WebReferencePDF\PDFTransmiter.disco" />
+    <Content Include="PsToolBox_tool_box_128px_516891_easyicon.net.ico" />
+    <Content Include="System_preferences_tool_tools_128px_581754_easyicon.net.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
